@@ -1,0 +1,197 @@
+html {
+  background-color: #F4F1EB;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.main-cont {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 1400px;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+  color: #22262B;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 0;
+  color: #22262B;
+}
+
+.header-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.TopBar {
+  display: flex;
+  align-items: center;
+  height: 190px;
+}
+
+.logo-cont {
+  display: flex;
+  margin: 50px;
+}
+
+.logo-svg {
+  width: 75px;
+}
+
+.TopBar-header-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.card-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2.5rem 0;
+}
+
+.Card {
+  width: 430px;
+  height: 430px;
+  margin: 15px;
+}
+
+
+.project-cont {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border-radius: 35px;
+  padding: 20px 37px;
+  background-color: white;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.project-cont:hover {
+  background-color: #fdfbfb;
+}
+
+.upper-tag-cont {
+  display: flex;
+}
+
+.upper-tag{
+  border: 2px solid #22262B;
+  border-radius: 50px;
+  padding: 3px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 7px
+}
+
+.lower-tag-cont {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.lower-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #22262B;
+  color: white;
+  border-radius: 50px;
+  min-width: 100px;
+  min-height: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 10px;
+  padding: 0 20px;
+  text-align: center;
+  text-wrap: nowrap;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gitHub-button-cont {
+  position: absolute;
+  padding: 12px;
+  right: 0;
+  top: 0;
+}
+
+.gitHub-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 65px;
+  border-radius: 20px;
+  z-index: 100 ;
+}
+
+.gitHub-button:hover {
+  background-color: #F4F1EB;
+  cursor: pointer;
+}
+
+.gitHub-svg {
+  width: 40px;
+  pointer-events: none;
+}
+
+.project-text-cont h1, .project-text-cont h2 {
+  text-align: start;
+  color: #707070;
+}
+
+.project-text-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 10px 0;
+}
+
+.project-text-cont h1 {
+  line-height: 2.1rem;
+  margin-top: 5px;
+}
+
+.project-text-cont h2 {
+  margin: 10px 0;
+}
+
+ /* Fonts */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
